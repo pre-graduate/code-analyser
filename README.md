@@ -5,6 +5,8 @@
 
 # Code Analyser
 
+[![Build status](https://ci.appveyor.com/api/projects/status/b8nfxxba55t3r7d2?svg=true)](https://ci.appveyor.com/project/william-taylor/code-analyser)
+
 I'm an prolific coder and one thing I like to know is how large my projects are. What I wanted was a simple web application that allows me to upload my source code and for it to tell me how many lines of code are part of that project and other additional information. This is what Coder Analyser is, it is a simple web app that gives me stats on any web project anywhere from any device.
 
 ## Overview
