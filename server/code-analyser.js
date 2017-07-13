@@ -7,6 +7,7 @@ const app = express();
 const fs = require("fs");
 
 const CodeFileArray = require("./objects/code-file-array.js");
+const port = () => Number(process.argv.slice(-1)[0]);
 
 const multerOptions = {
   dest: './uploads/',
@@ -65,7 +66,8 @@ app.post('/', (req, res) => {
   }
 });
 
-const server = app.listen(3001, () => {
+
+const server = app.listen(port(), () => {
   const address = server.address();
 
   if(!fs.existsSync("./uploads"))
