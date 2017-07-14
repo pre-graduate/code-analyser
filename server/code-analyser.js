@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  const debugHtml = `
+  const html = `
   <html>
     <body>
       <h1>Server online</h1>
@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
   `;
 
   res.setHeader('Content-Type', 'text/html');
-  res.write(debugHtml);
+  res.write(html);
   res.end();
 });
 

@@ -1,6 +1,5 @@
 
-const serverUrl = 'http://www.williamsamtaylor.co.uk:3001';
-//const serverUrl = 'http://localhost:3001';
+const serverUrl = 'http://dev.williamsamtaylor.co.uk:3003';
 
 export const endpoint = url => {
   return `${serverUrl}/${url || ''}`;
